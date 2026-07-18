@@ -1,0 +1,33 @@
+zPhys Python - Start Here
+=========================
+
+This folder contains the Trapani Lab zPhys Python app.
+
+Fastest install
+---------------
+
+Mac:
+1. Open the scripts folder.
+2. Double-click install_mac.command.
+3. After it finishes, double-click run_mac.command.
+
+Windows:
+1. Open the scripts folder.
+2. Double-click install_windows.bat.
+3. After it finishes, double-click run_windows.bat.
+
+If Python is not installed
+--------------------------
+
+Mac:
+Install Python 3.11 or newer from:
+https://www.python.org/downloads/macos/
+
+Windows:
+Install Python 3.11 or newer from:
+https://www.python.org/downloads/windows/
+During installation, check: Add python.exe to PATH
+
+Then run the install script again.
+
+For detailed instructions, read INSTALL.md.

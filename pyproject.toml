@@ -1,0 +1,20 @@
+[project]
+name = "zphys-python"
+version = "0.1.84"
+description = "Trapani Lab zPhys electrophysiology and field-potential analysis GUI"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "PySide6",
+    "pyqtgraph",
+    "igor2",
+    "pyabf",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+zphys = "zphys.app:main"

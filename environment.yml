@@ -1,0 +1,15 @@
+name: zphys
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - pyqtgraph
+  - pyside6
+  - pip:
+      - igor2
+      - pyabf
+      - -e .
