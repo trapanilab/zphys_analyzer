@@ -6,7 +6,7 @@ Current package version: **0.1.84**
 
 ## What it does
 
-- Loads SutterPatch / Igor PXP files, IBW, ABF, and CSV.
+- Loads SutterPatch / Igor PXP files (may also open IBW, ABF, and CSV)
 - Displays sweeps and series.
 - Provides baseline subtraction, overlay, average, FFT, and concatenation tools.
 - Detects spikes/events with optional detection windows.
