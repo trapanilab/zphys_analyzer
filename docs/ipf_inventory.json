@@ -1,0 +1,502 @@
+{
+  "JT_zphys_analysis_rtGlobals3_full_v5(1).ipf": {
+    "lines": 1259,
+    "functions": [
+      {
+        "kind": "Function",
+        "name": "JT_SetDblExpYOffsetToZero",
+        "args": ""
+      },
+      {
+        "kind": "Function",
+        "name": "Avg_2Dwave_BL",
+        "args": "tempWaveName"
+      },
+      {
+        "kind": "Function",
+        "name": "tempAddWave",
+        "args": "numCols"
+      },
+      {
+        "kind": "Function",
+        "name": "Hist1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Hist2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Hist3",
+        "args": "ctrlName,binsize,binnumber,binstart,pointnumber,pointstart"
+      },
+      {
+        "kind": "Function",
+        "name": "concat1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "fft_wave1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "average1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "base1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "StitchSweeps",
+        "args": "waveListToStitch, destWave"
+      },
+      {
+        "kind": "Function",
+        "name": "ZeroSweeps",
+        "args": "ctrlName,checked"
+      },
+      {
+        "kind": "Function",
+        "name": "concatenateTEMP",
+        "args": ""
+      },
+      {
+        "kind": "Function",
+        "name": "averageTEMP",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "cropWaves",
+        "args": "ctrlName,tempwavenum1,tempwavenum2"
+      },
+      {
+        "kind": "Function",
+        "name": "changeWavepoints",
+        "args": "ctrlName"
+      }
+    ]
+  },
+  "JT_zphys_display_rtGlobals3_full_v5(1).ipf": {
+    "lines": 1588,
+    "functions": [
+      {
+        "kind": "Function",
+        "name": "JTz_DisplayWaveExists",
+        "args": "waveName"
+      },
+      {
+        "kind": "Function",
+        "name": "JTz_DrawEventThreshold",
+        "args": "graphName, thresholdValue"
+      },
+      {
+        "kind": "Function",
+        "name": "JTz_SetDblExpYOffsetZero",
+        "args": ""
+      },
+      {
+        "kind": "Function",
+        "name": "JTz_AppendSweepToMainPanel",
+        "args": "sweepNum"
+      },
+      {
+        "kind": "Function",
+        "name": "Plot_Waves",
+        "args": "ctrlName, tempwavenum1, tempwavenum2"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_Waves_Startle",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_Waves",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_StimWave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "UserCursorAdjust",
+        "args": "graphName"
+      },
+      {
+        "kind": "Function",
+        "name": "UserCursorAdjust_ContButtonProc",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "UserCursorAdjust_CancelBProc",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Tile_graphs",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Table_Waves",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Waterfall_waves",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Save_Pict",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Save_Binary",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_Wanalysis",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_HistWaves",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_CurrentWave",
+        "args": "ctrlName, varNum, varStr, varName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_NextWave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_PrevWave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Graph_Panel",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Noaxes",
+        "args": "ctrlName,checked"
+      },
+      {
+        "kind": "Function",
+        "name": "Autoscale",
+        "args": "ctrlName, checked"
+      },
+      {
+        "kind": "Function",
+        "name": "CloseControl",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "updateAmp",
+        "args": "ctrlName,value,event"
+      },
+      {
+        "kind": "Function",
+        "name": "updatemainAmp",
+        "args": "ctrlName,value,event"
+      },
+      {
+        "kind": "Function",
+        "name": "updatemain",
+        "args": "ctrlName,varNum,varStr,varName"
+      },
+      {
+        "kind": "Function",
+        "name": "modifyGraphs",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "AddCursorsToGraph",
+        "args": "graphName, numCursorsToAdd, traceNameToAddTo, startXval, deltaXval, protocol"
+      },
+      {
+        "kind": "Function",
+        "name": "addCategoryToSDP",
+        "args": "ctrlName"
+      }
+    ]
+  },
+  "JT_zphys_event_analysis_rtGlobals3_full_v5(1).ipf": {
+    "lines": 3711,
+    "functions": [
+      {
+        "kind": "Function",
+        "name": "Find_Peaks",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Find_Peaks2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Display_Peaks2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "analyze_ISI",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "vector1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "vector2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "vector3",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Spikes_avg2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Inst_freq2",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Find_StimPeaks",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Tone_Start",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "CVwavestats",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "avg_ISI",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "stimfreqstats",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "VectorfromGraphs",
+        "args": "ctrlName,ctrlNum"
+      },
+      {
+        "kind": "Function",
+        "name": "recurrencePlot",
+        "args": "tempstring,tempnum1,tempnum2"
+      },
+      {
+        "kind": "Function",
+        "name": "findLatDiff",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "colorizeSpiketimes",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "find_ALR_amplitude",
+        "args": "CtrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "findSpikesInSweeps",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "intensity_analysis",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "adaptation_analysis",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "column_analysis",
+        "args": "ctrlName"
+      }
+    ]
+  },
+  "JT_zphys_load_rtGlobals3_full_v5(1).ipf": {
+    "lines": 2174,
+    "functions": [
+      {
+        "kind": "Function",
+        "name": "AddWaves2D",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_CSV_File",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_HEKA_File",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_HEKA_Series",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Read_HEKA_Folder",
+        "args": "tempFileSelection"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_HEKA_Data",
+        "args": "currentseries"
+      },
+      {
+        "kind": "Function",
+        "name": "Load_HEKA_Wave",
+        "args": "ctrlName,ctrlNum"
+      },
+      {
+        "kind": "Function",
+        "name": "Select_Series",
+        "args": "ctrlName, popNum, popStr"
+      },
+      {
+        "kind": "Function",
+        "name": "ReLoad_Sutter_Wave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Load_Sutter_Wave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Select_Folder",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Select_Wave",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "save1",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_ABF_File",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "Read_ABF_Header",
+        "args": "tempFileSelection"
+      },
+      {
+        "kind": "Function",
+        "name": "Import_ABF_Data",
+        "args": "tempFileSelection"
+      }
+    ]
+  },
+  "JT_zphys_panel_rtGlobals3_full_v5(1).ipf": {
+    "lines": 1016,
+    "functions": [
+      {
+        "kind": "Function",
+        "name": "JT_settings",
+        "args": "ctrlName"
+      },
+      {
+        "kind": "Function",
+        "name": "updatePopProtocol",
+        "args": "ctrlName,popNum,popStr"
+      },
+      {
+        "kind": "Function",
+        "name": "Start_A",
+        "args": "loadNum"
+      },
+      {
+        "kind": "Function",
+        "name": "SetupMainPanel",
+        "args": "loadNum"
+      },
+      {
+        "kind": "Function",
+        "name": "adjustRetinaDisp",
+        "args": "ctrlName,checked"
+      },
+      {
+        "kind": "Function",
+        "name": "MPTabProc",
+        "args": "loadName,tab"
+      },
+      {
+        "kind": "Function",
+        "name": "UpdateControlPanel",
+        "args": "ctrlName, popStr, loadNum"
+      },
+      {
+        "kind": "Function",
+        "name": "DataFolderExceptionCheck",
+        "args": "Foldername"
+      },
+      {
+        "kind": "Function",
+        "name": "Generate_PopList",
+        "args": ""
+      }
+    ]
+  }
+}
